@@ -115,31 +115,57 @@ Para compreender a crítica e o valor do projeto, o CyberneticMap sintetiza as p
 
 ---
 
-### 2.5. O Contra-Ataque: William S. Burroughs e a Guerrilha Semiótica
+### 2.5. Onde a Linguística Entra e Onde Fica William S. Burroughs?
 
-É neste cenário de controle total que o projeto CyberneticMap ancora seu módulo de vanguarda artística e filosófica:
+A fusão entre Cibernética e Teoria Crítica exige responder a duas perguntas vitais: **onde a linguística entra** no paradigma e **onde se posiciona William S. Burroughs** em relação a ela?
 
+```mermaid
+flowchart TD
+    subgraph LING["1. A LINGUÍSTICA (A Engenharia do Código)"]
+        SAU["Saussure (1916)<br/>O Signo Arbitrário & Sistema de Diferenças"]
+        JAK["Roman Jakobson (1956)<br/>A Linguagem como Canal de Comunicação (Shannon)"]
+        CHO["Noam Chomsky (1957)<br/>Gramática Gerativa: A Mente como Autômato Sintático"]
+    end
+
+    subgraph CIB["2. A CIBERNÉTICA (A Engenharia do Controle)"]
+        WIE["Norbert Wiener (1948)<br/>Feedback & Comando Animal/Máquina"]
+        SHA["Claude Shannon (1948)<br/>O Canal sem Ruído: Bits e Redundância"]
+    end
+
+    subgraph BUR["3. A GUERRILHA DE BURROUGHS (A Sabotagem do Código)"]
+        VIR["A Palavra como Vírus Biológico Exógeno"]
+        SUB["A Subvocalização: O Parasita Falando no Hospedeiro"]
+        CUT["A Tesoura Cut-Up: Injeção de Ruído para Destruir o Loop"]
+    end
+
+    LING -->|"Fornece o protocolo formal de software"| CIB
+    CIB -->|"Reduz o humano a terminal de telecomando"| BUR
+    BUR -.->|"Corta as linhas de transmissão com estilete"| LING
+    BUR -.->|"Injeta Caos Entrópico contra a Homeostase"| CIB
 ```
-[ WIENER: CONTROLE CIBERNÉTICO ]
-Comando Linear ──> Canal Sem Ruído ──> Receptor Dócil ──> Feedback Corretivo (Manutenção da Ordem)
-                                  ▲                               │
-                                  └──────── Loop Trancado ────────┘
 
-                                  VS.
+#### A. Aonde a Linguística Entra?
+A linguística entra como o **fornecedor do protocolo de software** da cibernética:
+1. **Ferdinand de Saussure (1916):** Ao dissociar o *Significante* do *Significado* e definir a língua como um sistema puramente relacional de oposições abstratas, Saussure descorporificou a linguagem, permitindo que ela fosse tratada formalmente como um *código simbólico autônomo*.
+2. **Roman Jakobson (1956):** Membro ativo dos círculos cibernéticos pós-Macy, Jakobson unificou a linguística à Teoria da Informação de Shannon. Ele mapeou a fala humana no circuito `Emissor → Canal (sem ruído) → Código → Mensagem → Receptor`, estruturando a linguagem em dois eixos matemáticos: *Seleção (Paradigma)* e *Combinação (Sintaxe)*.
+3. **Noam Chomsky (1957):** Chomsky modelou a cognição humana como um computador inato (Dispositivo de Aquisição de Linguagem) dotado de regras algorítmicas recursivas. A mente humana passou a ser descrita oficialmente como um **autômato processador de sintaxe**.
 
-[ BURROUGHS: GUERRILHA CUT-UP ]
-Texto de Comando ──> [ TESOURA DE GYSIN ] ──> Injeção Maciça de Ruído ──> Vazamento do Futuro
-(Vírus da Palavra)      (Corte Q4//Q1//Q3//Q2)     (Entropia Libertadora)    (Desconexão da Fita Mestra)
-```
+#### B. Aonde Fica William S. Burroughs?
+Burroughs não é um linguista contemplativo; é um **parasitologista cultural e guerrilheiro semiótico**:
+1. **A Descoberta do Vírus:** Burroughs aceita a premissa de Chomsky e Wiener de que o cérebro humano opera como uma máquina programável por código, mas faz a denúncia biológica definitiva: **"A palavra é literalmente um vírus alienígena"**. A conversa interna incessante (*subvocalização*) não é a voz da nossa alma, mas o parasita se replicando nas células cerebrais.
+2. **A Coleira da Sintaxe Linear:** A fórmula sintática `[Sujeito + Verbo + Predicado]` impõe artificialmente a ilusão do Ego, a causalidade mecânica rígida e o tempo pré-gravado (*pre-sent*).
+3. **A Tesoura Cut-Up como Arma Antiequipamento:** Enquanto Shannon e Wiener dedicam suas vidas a eliminar o ruído para que o comando seja cumprido, **Burroughs utiliza o ruído entrópico da Tesoura Cut-Up para sabotar o canal**. Cortar o texto em 4 quadrantes quebra os eixos de Jakobson e desativa o loop de feedback do Controle.
 
-1. **A Linguagem como Vírus Biológico (*Word Virus*):**
-   Burroughs postula que a palavra escrita e falada não é uma criação humana natural, mas um parasita alienígena microscópico que colonizou a glote e os neurônios dos primatas. Uma vez instalado em simbiose com o hospedeiro, o vírus induz a vocalização interior compulsiva ("conversa interna"), mantendo a mente humana em transe cibernético perpétuo.
-2. **The Soft Machine & A Equação do Junk:**
-   O ser humano é a *"Máquina Macia"*, um hardware biológico programável. O vício em heroína (*Junk*) é a metáfora viva do capitalismo monopolista cibernético: uma equação biológica onde o organismo é reduzido ao loop binário estrito `Necessidade (0) -> Dose (1) -> Alívio Temporário -> Necessidade (0)`.
-3. **O Estúdio da Realidade e as Fitas Mestras:**
-   A realidade cotidiana é uma ilusão técnica orquestrada em um estúdio central que pré-grava imagens e sons e os transmite como se fossem tempo presente (*pre-sent*).
-4. **O Cut-Up como Disjuntor Entrópico:**
-   Em 1959, com o pintor Brion Gysin no lendário Beat Hotel em Paris, Burroughs descobre que cortar textos impressos com uma lâmina e reorganizar seus pedaços destrói a sintaxe imperativa linear de causa e efeito. Enquanto Wiener luta obsessivamente para suprimir o ruído e manter a negentropia, **Burroughs utiliza o ruído entrópico deliberado como arma de desprogramação mental**. Ao sabotar o canal com fragmentação aleatória, a fita mestra do controle falha: *"Quando você corta o presente, as linhas do tempo vazam"*.
+---
+
+### 2.6. As Quatro Recapitulações Fundamentais
+
+| # | Pergunta Guia | Síntese Epistemológica | Fórmula / Operação | Contra-Ação de Burroughs |
+| :-: | :--- | :--- | :--- | :--- |
+| **01** | *Aonde a Linguística entra?* | Formaliza a linguagem humana como um código abstrato e determinístico de transmissão de sinal, permitindo o telecomando cibernético. | $\text{Linguagem} = \text{Código} - \text{Ruído}$ | Desmascarar o código como software do poder. |
+| **02** | *Aonde fica Burroughs?* | No ponto de curto-circuito biológico: a palavra é um organismo invasor que colonizou a glote e os neurônios do primata. | $\text{Humano} + \text{Palavra} = \text{Soft Machine}$ | Conscientizar-se da subvocalização parasitária. |
+| **03** | *Por que a sintaxe linear aprisiona?* | A ordem [Sujeito $\rightarrow$ Ação $\rightarrow$ Objeto] tranca a cognição em tempo linear falso e obediência à causa-efeito. | $\text{Sintaxe} = \text{Tempo Falso (Pre-Sent)}$ | Quebrar a gramática para abrir o silêncio neural. |
+| **04** | *Como o Cut-Up sabota o sistema?* | Introduz ruído estocástico maciço no canal, destruindo o feedback homeostático do Estúdio da Realidade. | $\text{Tesoura Cut-Up} \Rightarrow \Delta\text{Entropia} \uparrow$ | *"Quando você corta as frases, o futuro vaza."* |
 
 ---
 

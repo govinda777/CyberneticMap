@@ -1,4 +1,4 @@
-export type TabId = 'cybernetics' | 'burroughs' | 'experiments' | 'beliefs' | 'rfc';
+export type TabId = 'cybernetics' | 'linguistics' | 'burroughs' | 'experiments' | 'beliefs' | 'rfc';
 
 export interface CyberneticPillar {
   id: string;

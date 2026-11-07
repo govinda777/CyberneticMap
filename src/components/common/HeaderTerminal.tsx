@@ -90,6 +90,19 @@ export const HeaderTerminal: React.FC<HeaderTerminalProps> = ({
             01. Cibernética & Pilares
           </button>
 
+          {/* NOVA ABA: LINGUÍSTICA & DIAGRAMAS */}
+          <button
+            onClick={() => onTabChange('linguistics')}
+            className={`px-3 py-1.5 text-xs font-semibold uppercase tracking-wider rounded transition-all whitespace-nowrap flex items-center gap-1.5 ${
+              activeTab === 'linguistics'
+                ? 'bg-[#06b6d4] text-black shadow-lg shadow-[#06b6d4]/20'
+                : 'text-zinc-400 hover:text-[#06b6d4] hover:bg-[#06b6d4]/10'
+            }`}
+          >
+            <Cpu className="w-3.5 h-3.5" />
+            02. Linguística & Diagramas
+          </button>
+
           <button
             onClick={() => onTabChange('burroughs')}
             className={`px-3 py-1.5 text-xs font-semibold uppercase tracking-wider rounded transition-all whitespace-nowrap flex items-center gap-1.5 ${
@@ -99,7 +112,7 @@ export const HeaderTerminal: React.FC<HeaderTerminalProps> = ({
             }`}
           >
             <ShieldAlert className="w-3.5 h-3.5" />
-            02. Inversão Burroughs
+            03. Inversão Burroughs
           </button>
 
           {/* ABA DESTACADA: EXPERIMENTOS CIBERNÉTICOS */}
@@ -112,9 +125,9 @@ export const HeaderTerminal: React.FC<HeaderTerminalProps> = ({
             }`}
           >
             <Sparkles className="w-3.5 h-3.5" />
-            <span>03. Experimentos Cibernéticos</span>
+            <span>04. Experimentos</span>
             <span className="text-[9px] px-1.5 py-0.2 rounded bg-black/40 text-cyan-200 border border-cyan-400/40 uppercase">
-              Laboratório
+              Lab
             </span>
           </button>
 
@@ -127,7 +140,7 @@ export const HeaderTerminal: React.FC<HeaderTerminalProps> = ({
             }`}
           >
             <Layers className="w-3.5 h-3.5" />
-            04. Crenças & Dogmas
+            05. Crenças & Dogmas
           </button>
 
           <button
@@ -139,7 +152,7 @@ export const HeaderTerminal: React.FC<HeaderTerminalProps> = ({
             }`}
           >
             <BookOpen className="w-3.5 h-3.5" />
-            05. RFC & Arquitetura
+            06. RFC & Docs
           </button>
         </nav>
       </div>

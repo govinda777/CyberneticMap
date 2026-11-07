@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { HeaderTerminal } from './components/common/HeaderTerminal';
 import { CyberneticsView } from './components/cybernetics/CyberneticsView';
+import { LinguisticsDiagramsView } from './components/linguistics/LinguisticsDiagramsView';
 import { BurroughsView } from './components/burroughs/BurroughsView';
 import { ExperimentsView } from './components/experiments/ExperimentsView';
 import { BeliefsView } from './components/beliefs/BeliefsView';
@@ -58,6 +59,13 @@ export default function App() {
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 py-8 z-10">
         {activeTab === 'cybernetics' && (
           <CyberneticsView onNavigateToExperiments={handleNavigateToExperiments} />
+        )}
+
+        {activeTab === 'linguistics' && (
+          <LinguisticsDiagramsView
+            onNavigateToExperiments={handleNavigateToExperiments}
+            onTriggerGlitch={triggerGlitch}
+          />
         )}
 
         {activeTab === 'burroughs' && (
