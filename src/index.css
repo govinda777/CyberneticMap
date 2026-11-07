@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #030603;
+    color: #22c55e;
+    font-family: 'JetBrains Mono', 'Share Tech Mono', monospace;
+  }
+}
+
+/* Efeito CRT Scanline & Linhas Analógicas */
+.crt-overlay {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.4) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.03),
+    rgba(0, 255, 0, 0.01),
+    rgba(0, 0, 255, 0.03)
+  );
+  background-size: 100% 3px, 4px 100%;
+  pointer-events: none;
+}
+
+/* Efeito Glow Verde Fósforo */
+.text-glow {
+  text-shadow: 0 0 8px rgba(34, 197, 94, 0.6), 0 0 16px rgba(34, 197, 94, 0.2);
+}
+
+.text-glow-amber {
+  text-shadow: 0 0 8px rgba(245, 158, 11, 0.6), 0 0 16px rgba(245, 158, 11, 0.2);
+}
+
+.text-glow-red {
+  text-shadow: 0 0 8px rgba(239, 68, 68, 0.6), 0 0 16px rgba(239, 68, 68, 0.2);
+}
+
+.box-glow {
+  box-shadow: 0 0 15px rgba(34, 197, 94, 0.15), inset 0 0 15px rgba(34, 197, 94, 0.05);
+}
+
+/* Custom Scrollbar Terminal */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #040804;
+  border-left: 1px solid rgba(34, 197, 94, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #166534;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #22c55e;
+}
